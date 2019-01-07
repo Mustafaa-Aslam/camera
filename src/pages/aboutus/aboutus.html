@@ -1,0 +1,23 @@
+<!--
+  Generated template for the AboutusPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>aboutus</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p>{{img}}</p>
+  <img src="{{img}}">
+<button (click)="getPicture()">asdas</button>
+<span *ngFor="let t of tempContact">
+{{t.phoneNumbers}}--
+{{t.name.formatted}}
+</span></ion-content>
